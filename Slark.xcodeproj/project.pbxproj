@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29A5BE351DD7549800291802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5BE341DD7549800291802 /* AppDelegate.swift */; };
+		29A5BE371DD7549800291802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5BE361DD7549800291802 /* ViewController.swift */; };
+		29A5BE3A1DD7549800291802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A5BE381DD7549800291802 /* Main.storyboard */; };
+		29A5BE3C1DD7549800291802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A5BE3B1DD7549800291802 /* Assets.xcassets */; };
+		29A5BE3F1DD7549800291802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A5BE3D1DD7549800291802 /* LaunchScreen.storyboard */; };
+		29A5BE4A1DD7549800291802 /* SlarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5BE491DD7549800291802 /* SlarkTests.swift */; };
+		29A5BE551DD7549800291802 /* SlarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5BE541DD7549800291802 /* SlarkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29A5BE461DD7549800291802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29A5BE291DD7549800291802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29A5BE301DD7549800291802;
+			remoteInfo = Slark;
+		};
+		29A5BE511DD7549800291802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29A5BE291DD7549800291802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29A5BE301DD7549800291802;
+			remoteInfo = Slark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29A5BE311DD7549800291802 /* Slark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A5BE341DD7549800291802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29A5BE361DD7549800291802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29A5BE391DD7549800291802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29A5BE3B1DD7549800291802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29A5BE3E1DD7549800291802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29A5BE401DD7549800291802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A5BE451DD7549800291802 /* SlarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A5BE491DD7549800291802 /* SlarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlarkTests.swift; sourceTree = "<group>"; };
+		29A5BE4B1DD7549800291802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A5BE501DD7549800291802 /* SlarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A5BE541DD7549800291802 /* SlarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlarkUITests.swift; sourceTree = "<group>"; };
+		29A5BE561DD7549800291802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29A5BE2E1DD7549800291802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A5BE421DD7549800291802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A5BE4D1DD7549800291802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29A5BE281DD7549800291802 = {
+			isa = PBXGroup;
+			children = (
+				29A5BE331DD7549800291802 /* Slark */,
+				29A5BE481DD7549800291802 /* SlarkTests */,
+				29A5BE531DD7549800291802 /* SlarkUITests */,
+				29A5BE321DD7549800291802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29A5BE321DD7549800291802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29A5BE311DD7549800291802 /* Slark.app */,
+				29A5BE451DD7549800291802 /* SlarkTests.xctest */,
+				29A5BE501DD7549800291802 /* SlarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29A5BE331DD7549800291802 /* Slark */ = {
+			isa = PBXGroup;
+			children = (
+				29A5BE341DD7549800291802 /* AppDelegate.swift */,
+				29A5BE361DD7549800291802 /* ViewController.swift */,
+				29A5BE381DD7549800291802 /* Main.storyboard */,
+				29A5BE3B1DD7549800291802 /* Assets.xcassets */,
+				29A5BE3D1DD7549800291802 /* LaunchScreen.storyboard */,
+				29A5BE401DD7549800291802 /* Info.plist */,
+			);
+			path = Slark;
+			sourceTree = "<group>";
+		};
+		29A5BE481DD7549800291802 /* SlarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				29A5BE491DD7549800291802 /* SlarkTests.swift */,
+				29A5BE4B1DD7549800291802 /* Info.plist */,
+			);
+			path = SlarkTests;
+			sourceTree = "<group>";
+		};
+		29A5BE531DD7549800291802 /* SlarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29A5BE541DD7549800291802 /* SlarkUITests.swift */,
+				29A5BE561DD7549800291802 /* Info.plist */,
+			);
+			path = SlarkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29A5BE301DD7549800291802 /* Slark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A5BE591DD7549800291802 /* Build configuration list for PBXNativeTarget "Slark" */;
+			buildPhases = (
+				29A5BE2D1DD7549800291802 /* Sources */,
+				29A5BE2E1DD7549800291802 /* Frameworks */,
+				29A5BE2F1DD7549800291802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slark;
+			productName = Slark;
+			productReference = 29A5BE311DD7549800291802 /* Slark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29A5BE441DD7549800291802 /* SlarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A5BE5C1DD7549800291802 /* Build configuration list for PBXNativeTarget "SlarkTests" */;
+			buildPhases = (
+				29A5BE411DD7549800291802 /* Sources */,
+				29A5BE421DD7549800291802 /* Frameworks */,
+				29A5BE431DD7549800291802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29A5BE471DD7549800291802 /* PBXTargetDependency */,
+			);
+			name = SlarkTests;
+			productName = SlarkTests;
+			productReference = 29A5BE451DD7549800291802 /* SlarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29A5BE4F1DD7549800291802 /* SlarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A5BE5F1DD7549800291802 /* Build configuration list for PBXNativeTarget "SlarkUITests" */;
+			buildPhases = (
+				29A5BE4C1DD7549800291802 /* Sources */,
+				29A5BE4D1DD7549800291802 /* Frameworks */,
+				29A5BE4E1DD7549800291802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29A5BE521DD7549800291802 /* PBXTargetDependency */,
+			);
+			name = SlarkUITests;
+			productName = SlarkUITests;
+			productReference = 29A5BE501DD7549800291802 /* SlarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29A5BE291DD7549800291802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ideapress;
+				TargetAttributes = {
+					29A5BE301DD7549800291802 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					29A5BE441DD7549800291802 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29A5BE301DD7549800291802;
+					};
+					29A5BE4F1DD7549800291802 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29A5BE301DD7549800291802;
+					};
+				};
+			};
+			buildConfigurationList = 29A5BE2C1DD7549800291802 /* Build configuration list for PBXProject "Slark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29A5BE281DD7549800291802;
+			productRefGroup = 29A5BE321DD7549800291802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29A5BE301DD7549800291802 /* Slark */,
+				29A5BE441DD7549800291802 /* SlarkTests */,
+				29A5BE4F1DD7549800291802 /* SlarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29A5BE2F1DD7549800291802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A5BE3F1DD7549800291802 /* LaunchScreen.storyboard in Resources */,
+				29A5BE3C1DD7549800291802 /* Assets.xcassets in Resources */,
+				29A5BE3A1DD7549800291802 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A5BE431DD7549800291802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A5BE4E1DD7549800291802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29A5BE2D1DD7549800291802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A5BE371DD7549800291802 /* ViewController.swift in Sources */,
+				29A5BE351DD7549800291802 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A5BE411DD7549800291802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A5BE4A1DD7549800291802 /* SlarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A5BE4C1DD7549800291802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A5BE551DD7549800291802 /* SlarkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29A5BE471DD7549800291802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29A5BE301DD7549800291802 /* Slark */;
+			targetProxy = 29A5BE461DD7549800291802 /* PBXContainerItemProxy */;
+		};
+		29A5BE521DD7549800291802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29A5BE301DD7549800291802 /* Slark */;
+			targetProxy = 29A5BE511DD7549800291802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29A5BE381DD7549800291802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29A5BE391DD7549800291802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29A5BE3D1DD7549800291802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29A5BE3E1DD7549800291802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29A5BE571DD7549800291802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29A5BE581DD7549800291802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29A5BE5A1DD7549800291802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Slark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.ideapress.Slark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		29A5BE5B1DD7549800291802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Slark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.ideapress.Slark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		29A5BE5D1DD7549800291802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.ideapress.SlarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slark.app/Slark";
+			};
+			name = Debug;
+		};
+		29A5BE5E1DD7549800291802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.ideapress.SlarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slark.app/Slark";
+			};
+			name = Release;
+		};
+		29A5BE601DD7549800291802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SlarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.ideapress.SlarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Slark;
+			};
+			name = Debug;
+		};
+		29A5BE611DD7549800291802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SlarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.ideapress.SlarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Slark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29A5BE2C1DD7549800291802 /* Build configuration list for PBXProject "Slark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A5BE571DD7549800291802 /* Debug */,
+				29A5BE581DD7549800291802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29A5BE591DD7549800291802 /* Build configuration list for PBXNativeTarget "Slark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A5BE5A1DD7549800291802 /* Debug */,
+				29A5BE5B1DD7549800291802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29A5BE5C1DD7549800291802 /* Build configuration list for PBXNativeTarget "SlarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A5BE5D1DD7549800291802 /* Debug */,
+				29A5BE5E1DD7549800291802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29A5BE5F1DD7549800291802 /* Build configuration list for PBXNativeTarget "SlarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A5BE601DD7549800291802 /* Debug */,
+				29A5BE611DD7549800291802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29A5BE291DD7549800291802 /* Project object */;
+}
