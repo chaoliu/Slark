@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29A27E9D1DD805C2008EC59A /* ProcessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A27E9C1DD805C2008EC59A /* ProcessController.swift */; };
 		29A5BE351DD7549800291802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5BE341DD7549800291802 /* AppDelegate.swift */; };
 		29A5BE371DD7549800291802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5BE361DD7549800291802 /* ViewController.swift */; };
 		29A5BE3A1DD7549800291802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A5BE381DD7549800291802 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29A27E9C1DD805C2008EC59A /* ProcessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessController.swift; sourceTree = "<group>"; };
 		29A5BE311DD7549800291802 /* Slark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A5BE341DD7549800291802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29A5BE361DD7549800291802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				29A5BE3B1DD7549800291802 /* Assets.xcassets */,
 				29A5BE3D1DD7549800291802 /* LaunchScreen.storyboard */,
 				29A5BE401DD7549800291802 /* Info.plist */,
+				29A27E9C1DD805C2008EC59A /* ProcessController.swift */,
 			);
 			path = Slark;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				29A5BE371DD7549800291802 /* ViewController.swift in Sources */,
 				29A5BE351DD7549800291802 /* AppDelegate.swift in Sources */,
+				29A27E9D1DD805C2008EC59A /* ProcessController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				29A5BE5B1DD7549800291802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29A5BE5C1DD7549800291802 /* Build configuration list for PBXNativeTarget "SlarkTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				29A5BE5E1DD7549800291802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29A5BE5F1DD7549800291802 /* Build configuration list for PBXNativeTarget "SlarkUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				29A5BE611DD7549800291802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
